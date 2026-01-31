@@ -44,7 +44,7 @@ const scenarios = [
   { id: 'Neg_Fun_0008', name: 'Currency without spacing translated incorrectly', input: 'Oyaa eyage badu tika Rs. 1500kin ganna epaa.', expected: 'ඔයා එයගෙ බඩු ටික රු.1500කින් ගන්න එපා.' },
   { id: 'Neg_Fun_0009', name: 'Negation scope translated incorrectly', input: 'Mama danne nee eyaa oyath ekka enavadha kiyalaa.', expected: 'මම දන්නෙ නැහැ එයා ඔයත් එක්ක එනවද කියලා.' },
   { id: 'Neg_Fun_0010', name: 'Incorrect handling of time and numbers', input: 'Mata 7.30 AM meeting ekak thiyenavaa office eken eliyee saha eeka 10.30 AM venakal thiyenavaa kiyalaa kivuvaa.', expected: 'මට පෙ.ව. 7.30ට meeting එකක් තියෙනවා office එකෙන් එලියේ සහ ඒක පෙ.ව. 10.30 වෙනකල් තියෙනවා කියලා කිවුවා.' },
-  { id: 'Neg_Fun_0011', name: 'Sentence with condition clause mistranslated', input: 'Mata 7.30 AM meeting ekak thiyenavaa office eken eliyee saha eeka 10.30 AM venakal thiyenavaa kiyalaa kivuvaa.', expected: 'මට පෙ.ව. 7.30ට meeting එකක් තියෙනවා office එකෙන් එලියේ සහ ඒක පෙ.ව. 10.30 වෙනකල් තියෙනවා කියලා කිවුවා.' },
+  { id: 'Neg_Fun_0011', name: 'Sentence with condition clause mistranslated', input: 'oyaa heta enne mama gedhara innavaa kiyalaa hithan innee.', expected: 'ඔයා හෙට එන්නෙ නැත්තම් මම ගෙදර ඉන්නවා කියලා හිතන් ඉන්නේ.' },
 ];
 
 for (const s of scenarios) {
